@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="btn">
+            <button id="button">Draw</button>
+        </div>
+        <div class="rozmiry">
+            <ul>
+                <li><span>R1 =</span>
+                    <input type="number" id="R1"  placeholder="R1" value="40">
+                </li>
+                <li><span>R2 =</span>
+                    <input type="number" id="R2" placeholder="R2" value="80">
+                </li>
+                <li> <span>A =</span>                   
+                    <input type="number" id="A" placeholder="A" value="120">
+                </li>
+                <li><span>B =</span>
+                    <input type="number" id="B"  placeholder="B" value="60">
+                </li>
+            </ul>
+        </div>
+        <div class="buttons">
+            <label for="sitka">Grid</label>
+            <input type="checkbox" id="sitka" name="check" checked> 
+            <label for="detal">Detail</label>
+            <input type="checkbox" id="detal" name="check">
+        </div>
+    </nav>
+    <section>
+        <canvas id="myCanvas" width="1000" height="600" style="border:1px solid #000;"></canvas>
+        <div id="myDetail"></div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCDCDC;
+}
+
+.nazva{
+    width: 15%;
+    text-align: center;
+}
+
+.btn{
+    width: 10%;
+}
+
+button{
+    cursor: pointer;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #228B22;
+    outline: none;
+    color: #fff;
+}
+
+.rozmiry{
+    width: 40%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul>li{
+    list-style-type: none;
+}
+
+input{
+    width: 50px;
+    border-radius: 20%;
+    outline: none;
+}
+
+
+.buttons{
+    width: 35%;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+#myDetail{
+    width: 240px;
+    height: 240px;
+    margin-top: 10px;
+    transform: rotate(-90deg);
+}
+.some_block{
+    margin-top: -10px;
+}
+#button{
+    width: 150px;
+    background: #228B22;
+    border-radius: 6px;
+    color: white;
+    height: 50px;
+    margin-left: -50px;
+    font-size: 18px;
+}
